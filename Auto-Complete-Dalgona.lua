@@ -1,6 +1,6 @@
 
 do
-    local Skidd = ReplicatedStorage.Modules.Games.DalgonaClient
+    local Skidd = ReplicatedStorage.Skidd.Games.DalgonaClient
 
     function CompleteDalgona()
         if not getgenv().Toggles.DalgonaAuto then return end
@@ -16,7 +16,7 @@ do
     end
 
     local Original
-    Original = hookfunction(require(Module), function(...)
+    Original = hookfunction(require(Skidd), function(...)
         task.delay(3, CompleteDalgona)
         return Original(...)
     end)

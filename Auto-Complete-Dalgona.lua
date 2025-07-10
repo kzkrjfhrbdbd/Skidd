@@ -1,6 +1,6 @@
 
 do
-    local Module = ReplicatedStorage.Modules.Games.DalgonaClient
+    local Skidd = ReplicatedStorage.Modules.Games.DalgonaClient
 
     function CompleteDalgona()
         if not getgenv().Toggles.DalgonaAuto then return end

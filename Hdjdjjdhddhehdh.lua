@@ -4993,7 +4993,7 @@ if targetlib ~= "Wind" then
             pcall(function()
                 Library:Unload()
             end)
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/inkgame.lua", true))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/kzkrjfhrbdbd/Skidd/refs/heads/main/Hdjdjjdhddhehdh.lua", true))()
         else
             Script.Functions.Alert("[Save Settings]: Press the button again to reset your settings. This cannot be undone!", 5)
             approved = true
